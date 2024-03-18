@@ -7,8 +7,8 @@ O projeto é um guia básico de criação de elementos com CSS.
 
 ### Links
 
-- Solução URL: [Repository]()
-- Live Site URL: [Live Page]()
+- Solução URL: [Repository](https://github.com/aslinsjr/css-basic-guide)
+- Live Site URL: [Live Page](https://aslinsjr.github.io/css-basic-guide/)
 
 ### Desenvolvido com
 
