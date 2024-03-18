@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Guide</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Guia Básico CSS</h1>
+    <p>(criando elementos)</p>
+  </header>
+    <div class="guide-container">
+      <details>
+        <summary>Posições</summary>
+        <p>A "position", pode ser: <br>
+            "initial","relative", ou "absolute"<br>
+        <br>
+        A posição "absolute" nos permite definir <br>
+        exatamente onde queremos o elemento. <br>
+        <br>
+        "top", "bottom", "left" e "right" são <br>
+        propriedades usadas para isto.
+        </p>
+      </details> 
+      <details>
+        <summary>Altura e Largura</summary>
+        <p>"width" e "height" são as propriedades <br>
+        que especificam largura e altura respectivamente<br>
+        <br>
+        Os valores podem ser em: <br>
+        "px", "rem", ou "%".
+        </p>
+      </details> 
+      <details>
+        <summary>Borda e Arredondamento</summary>
+        <p>Configuramos a borda usando a propriedade <br>
+        "border", e seus valores aceitos são:<br>
+        largura da borda, estilo de traço, e cor<br>
+        <br>
+        Exemplo:<br>
+        "border: 1px solid black;"<br>
+        <br>
+        Além disso podemos arredondar a borda<br>
+        com a propriedade "border-radius",<br>
+        definindo o "tamanho" do arredondamento.
+        </p>
+      </details> 
+      <details>
+        <summary>Cor de Fundo</summary>
+        <p>Adicionamos uma cor de fundo através da <br>
+        propriedade "background-color"<br>
+        <br>
+        Diversas cores são aceitas<br> 
+        e podem ser definidas pelo<br>
+        nome, RGB, HSL ou HEX.
+        </p>
+      </details> 
+    </div>
+    <div class="create-container">
+        <button id="create-element-btn">+ Novo Elemento</button>
+        <form class="element-input hide">
+            <textarea name="create-element" id="text-input" cols="30" rows="10" placeholder="position: absolue;
+top:0;
+left:0;"></textarea>
+            <input id="submit-btn" type="submit" value="Criar">
+        </form>
+    </div>
+    <div class="box-area">
+        <p>
+            width: 450px;<br>
+            height: 350px;<br>
+            border: 2px solid aliceblue;<br>
+            position: relative;<br>
+            display: flex;<br>
+            justify-content: center;<br>
+            align-items: center;<br>
+            background-color: hsl(156.83,98.06%,20.2%);<br>
+            box-shadow: 1px 1px 0.5rem 1px aliceblue;<br>
+        </p>
+    </div>
+</body>
+</html>
